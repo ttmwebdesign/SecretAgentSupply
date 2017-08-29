@@ -165,3 +165,51 @@ footer {
     width: 35%;
   }
 }
+
+/* small screens like phones */
+
+@media screen and (max-width: 470px) {
+  #banner {
+    height: 14rem;
+    background-position: left;
+  }
+
+  #banner .box {
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 8.85rem;
+  }
+  #banner h6 {
+    font-size: 0.77rem;
+    font-weight: bold;
+    margin: 1rem 1rem .25rem;
+  }
+  #banner h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: .25rem 1rem 1.5rem;
+  }
+  .watch {
+    display: none;
+  }
+  .products .boxed {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .loc {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .loc .boxed {
+    width: 90%;
+    margin-bottom: .5rem;
+  }
+  footer {
+    margin-top: 3rem;
+  }
+  footer .container {
+    text-align: center;
+  }
+  
+}
